@@ -11,7 +11,7 @@ def play():
     play()
   else:
       print("Thank you for playing ")
-start=input(" Do you want to start the rolling the dice ? ").strip().lower()
+start=input("Do you want to start the rolling the dice ? ").strip().lower()
 if start=="yes":
     play()
 else:
